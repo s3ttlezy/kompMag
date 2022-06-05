@@ -1,0 +1,28 @@
+/* Основная часть - СЕКЦИИ - Приветствие */
+
+.section-greeting {
+   padding: 30px 30px;
+   max-width: 500px;
+   transition: all 0.3s ease 0s;
+   &__header {
+   }
+
+   &__title {
+      font-size: 18px;
+      margin: 0 0 20px 0;
+   }
+
+   &__body {
+      display: flex;
+   }
+
+   &__text {
+      font-size: 15px;
+      line-height: 18px;
+      margin: 0 10px 0 0;
+   }
+   &:hover {
+      transform: translateY(-10px);
+      transition: all 0.3s ease 0s;
+   }
+}

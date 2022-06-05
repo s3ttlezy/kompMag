@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./src/style/style.css">
+      <link rel="stylesheet" href="./src/font-awesome-4.7.0/css/font-awesome.min.css">
+      <link rel="shortcut icon" href="./src/favicon.png" type="image/x-icon">
+      <title>Компьютерный магазин</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <!-- Шапка сайта -->
+         <header class="header">
+            <div class="container">
+               <div class="header__row">
+                  <div class="header__warning">
+                     <p>Важная информация! В связи с техническими работами сайта, некоторые разделы и функции могут быть недоступны. Приносим свои извинения!</p>
+                  </div>
+               </div>
+               <div class="header__row">
+                  <!-- Логотип сайта -->
+                  <div class="header__logo">
+                     <a href="index.html"><img src="./src/image/logo/short-logo.gif" alt=""></a>
+                  </div>
+                  <!-- Поисковая строка -->
+                  <div class="header__search header-search">
+                     <div class="header-search__field">
+                        <input type="search" name="headerSearch" id="headerSearch" placeholder="Поиск в Компьютерном магазине..." maxlength="80">
+                     </div>
+                     <div class="header-search__button">
+                        <button id="headerButton">Найти!</button>
+                     </div>
+                  </div>
+                  <!-- Кнопки в Header -->
+                  <div class="header__menu menu">
+                     <div class="menu__item menu-item">
+                        <div class="menu-item__icon">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="menu-item__link">
+                           <a href="">Избранное</a>
+                        </div>
+                     </div>
+                     <div class="menu__item menu-item">
+                        <div class="menu-item__icon">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                        <div class="menu-item__link">
+                           <a href="">Корзина</a>
+                        </div>
+                     </div>
+                     <div class="menu__item menu-item">
+                        <div class="menu-item__icon">
+                           <i class="fa fa-sign-in" aria-hidden="true"></i>
+                        </div>
+                        <div class="menu-item__link">
+                           <a href="#" id="authBtn">Войти</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!-- Основной контент сайта -->
+         <main class="content">
+            <div class="content-container">
+               <!-- Боковая панель -->
+               <aside class="content__aside aside">
+                  <!-- Строка боковой панели -->
+                  <div class="aside__row">
+                     <!-- Предмет боковой панели -->
+                     <div class="aside__item aside-item">
+                        <!-- Иконка боковой панели -->
+                        <div class="aside-item__icon">
+                           <i class="fa fa-desktop fa-2x" style="color: #FE480D" aria-hidden="true"></i>
+                        </div>
+                        <!-- Информация боковой панели -->
+                        <div class="aside-item__info aside-item-info">
+                           <!-- Название элемента списка -->
+                           <div class="aside-item-info__row a-i-info-row">
+                              <div class="a-i-info-row__name"><a href="./nastolnie-komputery/index.html">Настольные компьютеры</a></div>
+                           </div>
+                           <!-- Подкатегории элемента списка -->
+                           <div class="aside-item-info__row a-i-info-row">
+                              <div class="a-i-info-row__subname"><a href="./nastolnie-komputery/index.html">Комплектующие</a></div>
+                              <div class="a-i-info-row__subname"><a href="./nastolnie-komputery/index.html">Аксессуары</a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Предмет боковой панели -->
+                     <div class="aside__item aside-item">
+                        <!-- Иконка боковой панели -->
+                        <div class="aside-item__icon">
+                           <i class="fa fa-laptop fa-2x" style="color: #FE480D" aria-hidden="true"></i>
+                        </div>
+                        <!-- Информация боковой панели -->
+                        <div class="aside-item__info aside-item-info">
+                           <!-- Название элемента списка -->
+                           <div class="aside-item-info__row a-i-info-row">
+                              <div class="a-i-info-row__name"><a href="./noutbuky/index.html">Ноутбуки</a></div>
+                           </div>
+                           <!-- Подкатегории элемента списка -->
+                           <div class="aside-item-info__row a-i-info-row">
+                              <div class="a-i-info-row__subname"><a href="./noutbuky/index.html">Комплектующие</a></div>
+                              <div class="a-i-info-row__subname"><a href="./noutbuky/index.html">Аксессуары</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </aside>
+               <!-- Основной контент блока content -->
+               <div class="content__main main">
+                  <!-- Строка контента -->
+                  <div class="main__row">
+                     <div class="main__section section-title">
+                        <div class="section-title__logo">
+                           <img src="./src/image/logo/logo.gif" alt="">
+                        </div>
+                     </div>
+                     <!-- Секция с ациями -->
+                     <div class="main__section section-stock">
+                        <div class="section-stock__row sec-stock-header">
+                           <div class="sec-stock-header__title">Акции</div>
+                           <div class="sec-stock-header__icon">
+                              <i class="fa fa-percent fa-2x" style="color: #FE480D" aria-hidden="true"></i>
+                           </div>
+                        </div>
+                        <div class="section-stock__row sec-stock-body">
+                           <div class="sec-stock-body__row">
+                              <div class="sec-stock-body__item stock-item">
+                                 <div class="stock-item__color-block"></div>
+                                 <div class="stock-item__stock"><a href="">Скидки и выгодные предложения <span>0</span></a></div>
+                              </div>
+                           </div>
+                           <div class="sec-stock-body__row sec-stock-btns">
+                              <div class="sec-stock-btns__all-stock">
+                                 <a href="error.html"><button>Все акции</button></a>
+                              </div>
+                              <div class="sec-stock-btns__all-content">
+                                 <a href="error.html"><button>Все товары</button></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Строка контента -->
+                  <div class="main__row">
+                     <h2>Специальные предложения</h2>
+                     <div class="main__section section-offers">
+                        <div class="section-offers__body">
+                           <div class="section-offers__item s-o-item">
+                              <div class="s-o-item__image">
+                                 <a href="error.html"><img src="./src/image/main/section-offers/pc_1.jpg.webp" alt=""></a>
+                              </div>
+                              <div class="s-o-item__body">
+                                 <a href="error.html">
+                                    <div class="s-o-item__title">ПК Krest Aquila Q720</div>
+                                 </a>
+                                 <div class="s-o-item__price">от <span>74 999</span></div>
+                              </div>
+                           </div>
+                           <div class="section-offers__item s-o-item">
+                              <div class="s-o-item__image">
+                                 <a href="error.html"><img src="./src/image/main/section-offers/pc_1.jpg.webp" alt=""></a>
+                              </div>
+                              <div class="s-o-item__body">
+                                 <a href="error.html">
+                                    <div class="s-o-item__title">ПК Krest Astellion B570RQ</div>
+                                 </a>
+                                 <div class="s-o-item__price">от <span>54 999</span></div>
+                              </div>
+                           </div>
+                           <div class="section-offers__item s-o-item">
+                              <div class="s-o-item__image">
+                                 <a href="error.html"><img src="./src/image/main/section-offers/pc_2.jpg.webp" alt=""></a>
+                              </div>
+                              <div class="s-o-item__body">
+                                 <a href="error.html">
+                                    <div class="s-o-item__title">ПК Krest Aquila Q950T</div>
+                                 </a>
+                                 <div class="s-o-item__price">от <span>109 999</span></div>
+                              </div>
+                           </div>
+                           <div class="section-offers__item s-o-item">
+                              <div class="s-o-item__image">
+                                 <a href="error.html"><img src="./src/image/main/section-offers/pc_3.jpg.webp" alt=""></a>
+                              </div>
+                              <div class="s-o-item__body">
+                                 <a href="error.html">
+                                    <div class="s-o-item__title">ПК ESMA Rade GP11</div>
+                                 </a>
+                                 <div class="s-o-item__price">от <span>154 999</span></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="main__row main__row_flex">
+                     <div class="main__section section-greeting">
+                        <div class="section-greeting__header">
+                           <div class="section-greeting__title">Привет!</div>
+                        </div>
+                        <div class="section-greeting__body">
+                           <div class="section-greeting__text">
+                              <p>
+                                 Получайте бонусы и специальные скидки, сохраняйте и следите за статусом заказа прямо из личного кабинета.
+                                 Только у нас вы найдете самые выгодные предложения!
+                              </p>
+                           </div>
+                           <div class="section-greeting__image">
+                              <i class="fa fa-info-circle fa-4x" style="color: #FE480D" aria-hidden="true"></i>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="main__section section-customize">
+                        <div class="section-customize__header">
+                           <div class="section-customize__title">Собери свой ПК!</div>
+                        </div>
+                        <div class="section-customize__body">
+                           <div class="section-customize__text">
+                              <p>  
+                                 Соберите свой ПК из комплектующих, которые вам понравятся, а мы его соберем!
+                                 Простой инструмент который за вас решит все вопросы с совместимостью.
+                              </p>
+                           </div>
+                           <div class="section-customize__icon">
+                              <i class="fa fa-cog fa-4x" style="color: #FE480D" aria-hidden="true"></i>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+         <!-- Подвал сайта -->
+         <footer class="footer">
+            <div class="container">
+               <div class="footer__row">
+                  <div class="footer__column f-column">
+                     <div class="f-column__header">
+                        <div class="f-column__title">О магазине</div>
+                     </div>
+                     <div class="f-column__body">
+                        <div class="f-column__list">
+                           <ul>
+                              <li><a href="#">О нас</a></li>
+                              <li><a href="#">Контакты</a></li>
+                              <li><a href="#">Трудоустройство</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer__column f-column">
+                     <div class="f-column__header">
+                        <div class="f-column__title">Покупателям</div>
+                     </div>
+                     <div class="f-column__body">
+                        <div class="f-column__list">
+                           <ul>
+                              <li><a href="#">Как оформить заказ</a></li>
+                              <li><a href="#">Способы оплаты</a></li>
+                              <li><a href="#">Кредиты</a></li>
+                              <li><a href="#">Доставка</a></li>
+                              <li><a href="#">Статус заказа</a></li>
+                              <li><a href="#">Возврат, гарантия</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer__column f-column">
+                     <div class="f-column__header">
+                        <div class="f-column__title f-title_last">Связь с нами</div>
+                     </div>
+                     <div class="f-column__body">
+                        <div class="f-column__phone">Телефонный номер (звонок бесплатный): +7 9** *** ** **</div>
+                        <div class="f-column__email">Почтовый ящик: komputerniy-magazin@muiv.ru</div>
+                        <div class="f-column__input">
+                           <input type="email" name="footerInputEmail" id="footerInputEmail" placeholder="Введите вашу почту и мы свяжемся с вами">
+                           <button type="submit">Отправить</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__row">
+                  <div class="footer__copyright">
+                     <p>
+                        Copyright © 2022 Ессаулов Дмитрий
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </footer>
+
+         <!-- Попапы -->
+         <!-- Попап авторизации -->
+         <div class="auth-popup">
+            <div class="auth-popup__wrap">
+               <div class="auth-popup__header">Войти или зарегестрироваться</div>
+               <span></span>
+               <div class="auth-popup__body">
+                  <div class="auth-popup__input">
+                     <input type="tel, email" name="authInput" id="authInput" placeholder="Телефон или почта" maxlength="40">
+                  </div>
+                  <div class="auth-popup__btn">
+                     <button>Получить пароль</button>
+                  </div>
+               </div>
+               <div class="auth-popup__footer">
+                  <div class="auth-popup__issue"><a href="#">Проблемы со входом?</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="./src/js/main.js"></script>
+   </body>
+</html>

@@ -1,0 +1,75 @@
+/* Основная часть - СЕКЦИИ - Специальные предложения */
+
+.section-offers {
+   margin: 20px 0 0 0;
+   transition: all 0.3s ease 0s;
+   &__body {
+      padding: 30px 30px;
+      display: flex;
+   }
+   &:hover {
+      transform: translateY(-10px);
+      transition: all 0.3s ease 0s;
+   }
+   &__item {
+   }
+}
+.s-o-item {
+   display: flex;
+   align-items: center;
+   width: 24%;
+   margin: 0 5px 0 0;
+   padding: 0;
+   user-select: none;
+   
+   &:hover {
+      img {
+         transform: scale(1.25);
+         transition: all 0.3s ease-in-out 0s;
+      }
+   }
+   &__image {
+      width: 100px;
+      margin: 0 10px 0 0;
+      img {
+         width: 100%;
+         display: block;
+         transition: all 0.3s ease-in-out 0s;
+      }
+   }
+   &__body {
+      align-self: center;
+      a {
+         text-decoration: none;
+         color: #000;
+         &:hover {
+            color: #FE480D;
+         }
+      }
+   }
+   &__title {
+      font-size: 15px;
+      line-height: 20px;
+      margin: 0 0 10px 0;
+   }
+
+   &__price {
+      font-size: 15px;
+      span {
+         font-weight: 700;
+         &:after {
+            content: "₽";
+            padding: 0 0 0 3px;
+         }
+      }
+   }
+}
+
+.main {
+   &__row {
+      margin: 0 0 100px 0;
+      &_flex {
+         display: flex;
+      }
+   }
+}

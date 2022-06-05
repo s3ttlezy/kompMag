@@ -1,0 +1,71 @@
+/* Основная часть - КОНТЕНТ - БОКОВАЯ ПАНЕЛЬ */
+.content {
+   // flex: 0 1 50%;
+   &__aside {
+      display: inline-block;
+      max-width: fit-content;
+      height: fit-content;
+      background-color: #fff;
+      border-radius: 4px;
+      box-shadow: 0px 2px 5px 1px #d7d7d7;
+   }
+}
+.aside {
+   padding: 15px 0;
+   margin: 0 75px 0 0;
+   &__row {
+   }
+
+   &__item {
+      display: flex;
+      align-items: center;
+      padding: 10px 15px;
+      
+   }
+}
+.aside-item {
+
+   &__icon {
+      margin: 0 20px 0 0;
+   }
+   &__info {
+   }
+   &:hover {
+      background-color: #dfdfdf;
+   }
+}
+.aside-item-info {
+
+   &__row {
+      
+   }
+}
+.a-i-info-row {
+   display: flex;
+   flex-direction: column;
+   &__name {
+      margin: 0 0 5px 0;
+      a {
+         color: #171717;
+         font-size: 15px;
+         &:hover {
+            color: #FE480D;
+         }
+      }
+   }
+   &__subname {
+      margin: 0 7px 0 0;
+      a {
+         text-transform: lowercase;
+         font-size: 13px;
+         color: #adadad;
+         &:hover {
+            color: #FE480D;
+         }
+      }
+   }
+   &:last-child {
+      
+      flex-direction: row;
+   }
+}

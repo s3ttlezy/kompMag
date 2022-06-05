@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./src/style/style.css">
+   <link rel="stylesheet" href="./src/font-awesome-4.7.0/css/font-awesome.min.css">
+   <link rel="shortcut icon" href="./src/favicon.png" type="image/x-icon">
+   <title>Настольные компьютеры</title>
+</head>
+<body>
+   <div class="wrapper">
+      <!-- Шапка сайта -->
+      <header class="header">
+         <div class="container">
+            <div class="header__row">
+               <div class="header__warning">
+                  <p>Важная информация! В связи с техническими работами сайта, некоторые разделы и функции могут быть недоступны. Приносим свои извинения!</p>
+               </div>
+            </div>
+            <div class="header__row">
+               <!-- Логотип сайта -->
+               <div class="header__logo">
+                  <a href="../../index.html"><img src="../src/image/logo/short-logo.gif" alt=""></a>
+               </div>
+               <!-- Поисковая строка -->
+               <div class="header__search header-search">
+                  <div class="header-search__field">
+                     <input type="search" name="headerSearch" id="headerSearch" placeholder="Поиск в Компьютерном магазине..." maxlength="80">
+                  </div>
+                  <div class="header-search__button">
+                     <button id="headerButton">Найти!</button>
+                  </div>
+               </div>
+               <!-- Кнопки в Header -->
+               <div class="header__menu menu">
+                  <div class="menu__item menu-item">
+                     <div class="menu-item__icon">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                     </div>
+                     <div class="menu-item__link">
+                        <a href="">Избранное</a>
+                     </div>
+                  </div>
+                  <div class="menu__item menu-item">
+                     <div class="menu-item__icon">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                     </div>
+                     <div class="menu-item__link">
+                        <a href="">Корзина</a>
+                     </div>
+                  </div>
+                  <div class="menu__item menu-item">
+                     <div class="menu-item__icon">
+                        <i class="fa fa-sign-in" aria-hidden="true"></i>
+                     </div>
+                     <div class="menu-item__link">
+                        <a href="#" id="authBtn">Войти</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Контент -->
+      <main class="content">
+         <div class="content-container">
+            <section class="section">
+               <div class="section__title">Каталог ноутбуков</div>
+               <div class="section__card s-card">
+                  <div class="s-card__header">
+                     <div class="s-card__image">
+                        <img src="./src/image/main/noutbuk.webp" alt="">
+                     </div>
+                  </div>
+                  <div class="s-card__body">
+                     <div class="s-card__title">
+                        <a href="error.html">
+                           <p>Ноутбук ESMA Pro A24 [AMD Ryzen 5 5600X, 8x4.2ГГц, 32 ГБ DDR4, Windows 10 Pro]</p>
+                        </a>
+                     </div>
+                     <div class="s-card__availability">
+                        <p>В наличии: <span>1шт</span></p>
+                     </div>
+                  </div>
+                  <div class="s-card__footer">
+                     <div class="s-card__price">158 999 ₽</div>
+                     <div class="s-card__buy">
+                        <button>Купить</button>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </main>
+      <!-- Подвал сайта -->
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__row">
+               <div class="footer__column f-column">
+                  <div class="f-column__header">
+                     <div class="f-column__title">О магазине</div>
+                  </div>
+                  <div class="f-column__body">
+                     <div class="f-column__list">
+                        <ul>
+                           <li><a href="#">О нас</a></li>
+                           <li><a href="#">Контакты</a></li>
+                           <li><a href="#">Трудоустройство</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__column f-column">
+                  <div class="f-column__header">
+                     <div class="f-column__title">Покупателям</div>
+                  </div>
+                  <div class="f-column__body">
+                     <div class="f-column__list">
+                        <ul>
+                           <li><a href="#">Как оформить заказ</a></li>
+                           <li><a href="#">Способы оплаты</a></li>
+                           <li><a href="#">Кредиты</a></li>
+                           <li><a href="#">Доставка</a></li>
+                           <li><a href="#">Статус заказа</a></li>
+                           <li><a href="#">Возврат, гарантия</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__column f-column">
+                  <div class="f-column__header">
+                     <div class="f-column__title f-title_last">Связь с нами</div>
+                  </div>
+                  <div class="f-column__body">
+                     <div class="f-column__phone">Телефонный номер (звонок бесплатный): +7 9** *** ** **</div>
+                     <div class="f-column__email">Почтовый ящик: komputerniy-magazin@muiv.ru</div>
+                     <div class="f-column__input">
+                        <input type="email" name="footerInputEmail" id="footerInputEmail" placeholder="Введите вашу почту и мы свяжемся с вами">
+                        <button type="submit">Отправить</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__row">
+               <div class="footer__copyright">
+                  <p>
+                     Copyright © 2022 Ессаулов Дмитрий
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Попапы -->
+      <!-- Попап авторизации -->
+      <div class="auth-popup">
+               <div class="auth-popup__wrap">
+                  <div class="auth-popup__header">Войти или зарегестрироваться</div>
+                  <span></span>
+                  <div class="auth-popup__body">
+                     <div class="auth-popup__input">
+                        <input type="tel, email" name="authInput" id="authInput" placeholder="Телефон или почта" maxlength="40">
+                     </div>
+                     <div class="auth-popup__btn">
+                        <button>Получить пароль</button>
+                     </div>
+                  </div>
+                  <div class="auth-popup__footer">
+                     <div class="auth-popup__issue"><a href="#">Проблемы со входом?</a></div>
+                  </div>
+               </div>
+      </div>
+   </div>
+   <script src="./src/js/main.js"></script>
+</body>
+</html>

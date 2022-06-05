@@ -1,0 +1,53 @@
+/* ОБНУЛЕНИЕ */
+@import "nullify.scss";
+/*----------------------*/
+
+html, body {
+   height: 100%;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+   background-color: #fafafa;
+}
+.no-scroll {
+   overflow: hidden;
+}
+.wrapper {
+   min-height: 100%;
+   // height: 90%;
+   width: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+.container {
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
+/* Основная часть - ШАПКА */
+@import "header.scss";
+
+/* Основная часть - КОНТЕНТ - СЕКЦИИ */
+@import "content-sections.scss";
+
+/* Подвал сайта */
+@import "footer.scss";
+
+/* Попап авторизации */
+@import "auth-pop.scss";
+
+/* Карточки категорий */
+@import "category-cards.scss";
+
+.error {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 200px 0;
+   color: #FE480D;
+   h1 {
+      font-size: 18px;
+
+   }
+}

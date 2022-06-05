@@ -1,0 +1,71 @@
+/* ОБНУЛЕНИЕ */
+@import "nullify.scss";
+/*----------------------*/
+
+html, body {
+   height: 100%;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+   background-color: #fafafa;
+}
+.no-scroll {
+   overflow: hidden;
+}
+.wrapper {
+   min-height: 100%;
+   // height: 127.5%;
+   width: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+.container {
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
+/* Основная часть - ШАПКА */
+@import "header.scss";
+
+/* Основная часть - КОНТЕНТ - БОКОВАЯ ПАНЕЛЬ */
+@import "content-aside.scss";
+
+/* Основная часть - КОНТЕНТ - СЕКЦИИ */
+@import "content-sections.scss";
+
+/* Основная часть - КОНТЕНТ - АКЦИИ */
+@import "content-stock.scss";
+
+/* Основная часть - СЕКЦИИ - Специальные предложения */
+@import "content-offers.scss";
+
+/* Основная часть - СЕКЦИИ - Приветствие */
+@import "content-greeting.scss";
+
+/* Основная часть - СЕКЦИИ - Конфигуратор ПК */
+@import "content-customize.scss";
+
+/* Подвал сайта */
+@import "footer.scss";
+
+/* Попап авторизации */
+@import "auth-pop.scss";
+
+.error {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 200px 0;
+   color: #FE480D;
+   h1 {
+      font-size: 18px;
+      padding: 0 60px;
+   }
+}
+.content-container {
+   max-width: 1180px;
+   margin: 0 auto;
+   align-self: center;
+}
+
